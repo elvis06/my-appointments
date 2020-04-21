@@ -30,7 +30,7 @@
       <input type="text" name="name" class="form-control" required value="{{ old('name', $specialty->name) }}">
     </div>
     <div class="form-group">
-      <label for="descripcion">Descripción</label>
+      <label for="description">Descripción</label>
       <input type="text" name="description" class="form-control" value="{{ old('description', $specialty->description) }}">
     </div>
     <button type="submit" class="btn btn-primary">Guardar
