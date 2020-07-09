@@ -24,7 +24,7 @@
     @endif
   <form action="{{ url('specialties') }}" method="post">
     @csrf
-    <div class="formg-roup">
+    <div class="form-group">
       <label for="name">Nombre de la especialidad</label>
       <input type="text" name="name" class="form-control" required value="{{ old('name') }}">
     </div>
